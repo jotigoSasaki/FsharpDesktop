@@ -1,0 +1,15 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="500" d:DesignHeight="500"
+        x:Class="FsharpDesktop.MainWindow"
+        Title="FsharpDesktop">
+  <Canvas Name="myCanvas"   Width="500" Height="500" >
+    <Rectangle Canvas.Bottom="250" Canvas.Left="250"  Fill="Red" Width="10" Height="10" ></Rectangle>
+     <Rectangle Name="rec1" Canvas.Bottom="150" Canvas.Left="250"  Fill="Red" Width="10" Height="10" ></Rectangle>
+    <Rectangle  Name="rec2" Canvas.Bottom="50" Canvas.Left="250"  Fill="Red" Width="10" Height="10" ></Rectangle>
+    <TextBox Name="Textbox"></TextBox>
+    
+  </Canvas>
+</Window>
