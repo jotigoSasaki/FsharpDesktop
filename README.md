@@ -1,5 +1,4 @@
 # FsharpDesktop
 
-
-
-двойной маятник
+двойной маятник 
+https://avaloniaui.net/
